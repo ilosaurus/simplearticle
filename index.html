@@ -32,7 +32,7 @@
     </a>
   </header>
 
-  <h1>My responsive blog</h1>
+  <h1>Frontend App</h1>
 
   <article>
 
@@ -69,7 +69,7 @@
   let url = "data.json";
   fetch(url,  {mode: 'cors'})
   .then(function (res) {
-      console.log(res);
+      console.log(res.json());
       return res.json()
   })
   .then(function (data) {
